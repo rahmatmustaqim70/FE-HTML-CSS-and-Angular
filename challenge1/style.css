@@ -1,0 +1,105 @@
+.box-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.single-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.img-area1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-backgroud-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.img-area2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-top: -162px;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-backgroud-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.img-area3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-backgroud-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.img-area4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin-top: -345px;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-backgroud-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+/* Image Caller */
+.single-box:nth-child(1) .img-area1{
+    background-image: url(img/winter.JPG);
+}
+.single-box:nth-child(2) .img-area2{
+    background-image: url(img/roadtrip.JPG);
+}
+.single-box:nth-child(3) .img-area3{
+    background-image: url(img/kangorovaley.JPG);
+}
+.single-box:nth-child(4) .img-area4{
+    background-image: url(img/roadtrip.JPG);
+}
+/* Font Style */
+.img-text {
+    font-family: monospace;
+    padding-top: 20px;
+}
+/* Button Style */
+a, button {
+    font-family: sans-serif;
+    font-size: 10px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover, button:hover{
+    opacity:0.9;
+}
